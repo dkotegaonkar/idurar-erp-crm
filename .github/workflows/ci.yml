@@ -1,0 +1,14 @@
+name: github-repo-stats
+
+on:
+  push:
+    branches:
+      -master
+  pull_request:
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "GitHub Actions workflow triggered!"
+
